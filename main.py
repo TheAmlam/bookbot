@@ -54,7 +54,7 @@ def print_report(file_path, num_words, list):
     
     for dict in list:
         if dict["character"].isalpha():
-            print(f"The '{dict["character"]}' character was found {dict["num"]} times")
+            print(f"The '{dict['character']}' character was found {dict['num']} times")
     
     print("--- End report ---")
 
